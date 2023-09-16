@@ -1,0 +1,19 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <animateTransform attributeName="transform" type="rotate" dur="5s"
+            values="0 12 12;360 12 12" repeatCount="indefinite" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(30 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(60 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(90 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(120 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(150 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(180 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(210 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(240 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(270 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(300 12 12)" />
+        <rect x="11" y="1" width="1.5" height="6" fill="#34b37c" transform="rotate(330 12 12)" />
+
+    </g>
+</svg>
