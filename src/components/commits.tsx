@@ -36,7 +36,9 @@ export function Commits() {
 
       <ul className="bg-white   max-w-lg">
         <li className=" border-gray-300 py-2">
-          <span className="text-gray-600 text-sm">{commit?.commit}</span>
+          <span className="text-gray-600 text-sm">
+            {(commit as any)?.commit}
+          </span>
         </li>
       </ul>
     </div>
