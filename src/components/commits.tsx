@@ -27,6 +27,15 @@ export function Commits() {
     return () => clearInterval(interval);
   }, [runFunction]);
 
+  function timeStamp(ts: string) {
+    if (!ts) return "";
+
+    const date = new Date(ts);
+    const localTime = date.toLocaleString();
+
+    return localTime;
+  }
+
   return (
     <div className="mt-8">
       <div className="flex items-center gap-x-2">
@@ -37,7 +46,7 @@ export function Commits() {
       <ul className="bg-white   max-w-lg">
         <li className=" border-gray-300 py-2">
           <span className="text-gray-600 text-sm">
-            {(commit as any)?.commit}
+            {timeStamp((commit as any)?.commit)}
           </span>
         </li>
       </ul>
