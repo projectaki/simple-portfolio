@@ -16,7 +16,7 @@ export default function Home() {
             GitHub
           </a>
 
-          <Commits />
+          {/* <Commits /> */}
         </div>
       </div>
     </main>
